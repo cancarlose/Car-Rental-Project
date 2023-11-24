@@ -147,6 +147,7 @@ form {
     width: 35%;
     height: 40px;
     border-radius: 10px;
+    margin-bottom: 10px;
   }
 
 .logo-footer{
@@ -161,6 +162,7 @@ footer{
     flex-direction: row;
     gap: 15%;
     padding: 20px;
+    margin: 16px;
     color: white;
 }
 
