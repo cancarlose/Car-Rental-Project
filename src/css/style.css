@@ -132,18 +132,21 @@ form {
     width: 100%;
     padding: 5px;
     border: 1px solid #ccc;
+    border-radius: 10px;
   }
   
   form input[type="submit"] {
-    background-color: #000;
+    background-color: rgb(198, 1, 1);
     color: #fff;
     border: none;
+    border-radius: 10px;
     cursor: pointer;
   }
 
   #car-type {
     width: 35%;
     height: 40px;
+    border-radius: 10px;
   }
 
 .logo-footer{
