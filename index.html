@@ -36,21 +36,21 @@
                     <img class="car-img" src="/src/images/car1.png" alt="Car 1">
                     <h3>Carro 1</h3>
                     <p>Preço: $100/Dia</p>
-                    <button onclick="rentCar(1)" class="btn-car">Alugar</button>
+                    <button onclick="selectCar(1)" class="btn-car">Selecionar</button>
                 </div>
 
                 <div class="car-item">
                     <img class="car-img" src="/src/images/car2.png" alt="Car 2">
                     <h3>Carro 2</h3>
                     <p>Preço: $120/Dia</p>
-                    <button onclick="rentCar(2)" class="btn-car">Alugar</button>
+                    <button onclick="selectCar(2)" class="btn-car">Selecionar</button>
                 </div>
 
                 <div class="car-item">
                     <img class="car-img" src="/src/images/car3.png" alt="Car 3">
                     <h3>Carro 3</h3>
                     <p>Preço: $150/Dia</p>
-                    <button onclick="rentCar(3)" class="btn-car">Alugar</button>
+                    <button onclick="selectCar(3)" class="btn-car">Selecionar</button>
                 </div>
 
             </section>
@@ -78,11 +78,10 @@
                 <option value="luxury">De Luxo</option>
             </select>
             <br>
-            <input type="submit" value="Rent Car">
+            <input type="submit" value="Alugar Carro">
         </form>
 
         <div class="footer">
-
             <footer>
                 <div class="column">
                     <div class="logo">
@@ -92,9 +91,9 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                     <div class="socials">
-                        <a href="#"><i class="ri-youtube-line"></i></a>
-                        <a href="#"><i class="ri-instagram-line"></i></a>
-                        <a href="#"><i class="ri-twitter-line"></i></a>
+                        <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
                     </div>
                 </div>
                 <div class="column">
@@ -111,12 +110,13 @@
                 </div>
             </footer>
         </div>
-
         <p class="copyright">
             Copyright © 2023 Carlos Dev.
         </p>
 
         <script src="./src/js/script.js"></script>
-
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+        </script>
     </body>
 </html>l
