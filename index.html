@@ -1,119 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aluguel de Carros</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <div class="nav-logo">
-            <a href="#">
-                <img class="img-logo" src="images/Logo.png">
-            </a>
-        </div>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aluguel de Carros</title>
+        <link rel="stylesheet" href="./src/css/style.css">
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/responsivo.css">
 
-        <ul class="nav-links">
-            <li class="link1"><a href="#">Início</a></li>
-            <li id="link2"><a href="#">Carros</a></li>
-            <li id="link3"><a href="#">Valores</a></li>
-            <li id="link4"><a href="#">Sobre</a></li>
-        </ul>
-        <button onclick="login()" class="btn">Conecte-se</button>
-    </nav>
-
-    <header>
-        <h1>Aluguel de Carros</h1>
-    </header>
-    <main>
-        <section class="car-list">
-            <h2>Carros Disponiveis</h2>
-            <div class="car-item">
-                <img class="car-img" src="images/car1.png" alt="Car 1">
-                <h3>Carro 1</h3>
-                <p>Preço: $100/Dia</p>
-                <button onclick="rentCar(1)" class="btn-car">Alugar</button>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-logo">
+                <a href="#">
+                    <img class="img-logo" src="/src/images/Logo.png">
+                </a>
             </div>
 
-            <div class="car-item">
-                <img class="car-img" src="images/car2.png" alt="Car 2">
-                <h3>Carro 2</h3>
-                <p>Preço: $120/Dia</p>
-                <button onclick="rentCar(2)" class="btn-car">Alugar</button>
-            </div>
+            <ul class="nav-links">
+                <li class="link1"><a href="#">Início</a></li>
+                <li id="link2"><a href="#">Carros</a></li>
+                <li id="link3"><a href="#">Valores</a></li>
+                <li id="link4"><a href="#">Sobre</a></li>
+            </ul>
+            <button onclick="login()" class="btn">Conecte-se</button>
+        </nav>
 
-            <div class="car-item">
-                <img class="car-img" src="images/car3.png" alt="Car 3">
-                <h3>Carro 3</h3>
-                <p>Preço: $150/Dia</p>
-                <button onclick="rentCar(3)" class="btn-car">Alugar</button>
-            </div>
-
-        </section>
-    </main>
-
-    <form>
-        <label for="pickup-location">Pickup Location:</label>
-        <input type="text" id="pickup-location" name="pickup-location" required>
-        <br>
-        <label for="dropoff-location">Dropoff Location:</label>
-        <input type="text" id="dropoff-location" name="dropoff-location" required>
-        <br>
-        <label for="pickup-date">Pickup Date:</label>
-        <input type="date" id="pickup-date" name="pickup-date" required>
-        <br>
-        <label for="dropoff-date">Dropoff Date:</label>
-        <input type="date" id="dropoff-date" name="dropoff-date" required>
-        <br>
-        <label for="car-type">Car Type:</label>
-        <select id="car-type" name="car-type" required>
-            <option value="economy">Economy</option>
-            <option value="compact">Compact</option>
-            <option value="midsize">Midsize</option>
-            <option value="fullsize">Fullsize</option>
-            <option value="luxury">Luxury</option>
-        </select>
-        <br>
-        <input type="submit" value="Rent Car">
-    </form>
-    
-    <div class="footer">
-
-        <footer>
-            <div class="column">
-                <div class="logo">
-                    <img class="logo-footer" src="images/Logo.png">
+        <header>
+            <h1>Aluguel de Carros</h1>
+        </header>
+        <main>
+            <section class="car-list">
+                <h2>Carros Disponiveis</h2>
+                <div class="car-item">
+                    <img class="car-img" src="/src/images/car1.png" alt="Car 1">
+                    <h3>Carro 1</h3>
+                    <p>Preço: $100/Dia</p>
+                    <button onclick="rentCar(1)" class="btn-car">Alugar</button>
                 </div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <div class="socials">
-                    <a href="#"><i class="ri-youtube-line"></i></a>
-                    <a href="#"><i class="ri-instagram-line"></i></a>
-                    <a href="#"><i class="ri-twitter-line"></i></a>
-                </div>
-        </div>
-        <div class="column">
-            <h4>About Us</h4>
-            <a href="#">Blogs</a>
-            <a href="#">Canais</a>
-            <a href="#">Patrocinadores</a>
-        </div>
-        <div class="column">
-            <h4>Contact</h4>
-            <a href="#">Contate-nos</a>
-            <a href="#">Política de Privacidade</a>
-            <a href="#">termos & Condições</a>
-        </div>
-    </footer>
-    </div>  
 
-    <p class="copyright">
-        Copyright © 2023 Carlos Dev.
-    </p>
-    
-    <script src="script.js"></script>
-    
-</body>
+                <div class="car-item">
+                    <img class="car-img" src="/src/images/car2.png" alt="Car 2">
+                    <h3>Carro 2</h3>
+                    <p>Preço: $120/Dia</p>
+                    <button onclick="rentCar(2)" class="btn-car">Alugar</button>
+                </div>
+
+                <div class="car-item">
+                    <img class="car-img" src="/src/images/car3.png" alt="Car 3">
+                    <h3>Carro 3</h3>
+                    <p>Preço: $150/Dia</p>
+                    <button onclick="rentCar(3)" class="btn-car">Alugar</button>
+                </div>
+
+            </section>
+        </main>
+
+        <form class="formulario">
+            <label for="pickup-location">Pickup Location:</label>
+            <input type="text" id="pickup-location" name="pickup-location" required>
+            <br>
+            <label for="dropoff-location">Dropoff Location:</label>
+            <input type="text" id="dropoff-location" name="dropoff-location" required>
+            <br>
+            <label for="pickup-date">Pickup Date:</label>
+            <input type="date" id="pickup-date" name="pickup-date" required>
+            <br>
+            <label for="dropoff-date">Dropoff Date:</label>
+            <input type="date" id="dropoff-date" name="dropoff-date" required>
+            <br>
+            <label for="car-type">Car Type:</label>
+            <select id="car-type" name="car-type" required>
+                <option value="economy">Economy</option>
+                <option value="compact">Compact</option>
+                <option value="midsize">Midsize</option>
+                <option value="fullsize">Fullsize</option>
+                <option value="luxury">Luxury</option>
+            </select>
+            <br>
+            <input type="submit" value="Rent Car">
+        </form>
+
+        <div class="footer">
+
+            <footer>
+                <div class="column">
+                    <div class="logo">
+                        <img class="logo-footer" src="./src/images/Logo.png">
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="socials">
+                        <a href="#"><i class="ri-youtube-line"></i></a>
+                        <a href="#"><i class="ri-instagram-line"></i></a>
+                        <a href="#"><i class="ri-twitter-line"></i></a>
+                    </div>
+                </div>
+                <div class="column">
+                    <h4>About Us</h4>
+                    <a href="#">Blogs</a>
+                    <a href="#">Canais</a>
+                    <a href="#">Patrocinadores</a>
+                </div>
+                <div class="column">
+                    <h4>Contact</h4>
+                    <a href="#">Contate-nos</a>
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">termos & Condições</a>
+                </div>
+            </footer>
+        </div>
+
+        <p class="copyright">
+            Copyright © 2023 Carlos Dev.
+        </p>
+
+        <script src="./src/js/script.js"></script>
+
+    </body>
 </html>l

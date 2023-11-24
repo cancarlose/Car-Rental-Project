@@ -1,0 +1,87 @@
+/* Media queries for tablet devices and smaller */
+@media only screen and (max-width: 768px) {
+
+  header {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  .car-list {
+      justify-content: space-around;
+  }
+
+  .car-item {
+      margin: 10px 0;
+  }
+
+  footer {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  }
+
+  .column {
+      margin-bottom: 20px;
+  }
+
+  .column .socials {
+      justify-content: space-around;
+  }
+
+  .copyright {
+      max-width: 90%;
+  }
+}
+
+/* Media queries for mobile devices and smaller */
+@media only screen and (max-width: 480px) {
+
+  header {
+      padding: 10px;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  h2 {
+      font-size: 1rem;
+  }
+
+  .car-list {
+      justify-content: space-around;
+  }
+
+  .car-item {
+      width: 90%;
+      padding: 10px;
+  }
+
+  .car-img {
+      width: 100%;
+  }
+
+  footer {
+      padding: 10px;
+  }
+
+  .column .logo {
+      max-width: 70px;
+  }
+
+  .column h4 {
+      font-size: 1rem;
+  }
+
+  .column p, a {
+      font-size: 0.8rem;
+  }
+
+  .column .socials a {
+      font-size: 1rem;
+  }
+
+  .copyright {
+      font-size: 0.7rem;
+  }
+}
